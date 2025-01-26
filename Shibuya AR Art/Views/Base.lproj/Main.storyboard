@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Zj-Vv-92a">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="Shibuya_AR_Art" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="4BQ-T7-PD8">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uPn-b7-9Kt">
+                                <rect key="frame" x="0.0" y="238" width="393" height="580"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lsM-jz-ZPU">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="230"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ARButton" translatesAutoresizingMaskIntoConstraints="NO" id="05t-Gf-1Nf">
+                                                <rect key="frame" x="46.666666666666657" y="10" width="300" height="210"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="26q-CX-WlV"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="210" id="QYG-Oh-Wat"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <accessibility key="accessibilityConfiguration" label="Top View">
+                                            <bool key="isElement" value="NO"/>
+                                        </accessibility>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="230" id="LrO-hq-jpj"/>
+                                            <constraint firstItem="05t-Gf-1Nf" firstAttribute="centerY" secondItem="lsM-jz-ZPU" secondAttribute="centerY" id="YwW-14-y2f"/>
+                                            <constraint firstItem="05t-Gf-1Nf" firstAttribute="centerX" secondItem="lsM-jz-ZPU" secondAttribute="centerX" id="gYW-QN-wBw"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XsW-rQ-O8a">
+                                        <rect key="frame" x="0.0" y="230" width="393" height="150"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="7KC-8x-6Ih">
+                                                <rect key="frame" x="46.666666666666657" y="10" width="300" height="130"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="GalleryButton" translatesAutoresizingMaskIntoConstraints="NO" id="WMH-iL-xnn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                                        <accessibility key="accessibilityConfiguration">
+                                                            <bool key="isElement" value="YES"/>
+                                                        </accessibility>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="130" id="oak-iZ-Jmg"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="px0-98-gIY"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ShopButton" translatesAutoresizingMaskIntoConstraints="NO" id="WCn-LU-xD8">
+                                                        <rect key="frame" x="170" y="0.0" width="130" height="130"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="Z3o-Ez-ruB"/>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="130" id="dMV-61-dY2"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <accessibility key="accessibilityConfiguration" label="Second View"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="OXv-B6-gdd"/>
+                                            <constraint firstItem="7KC-8x-6Ih" firstAttribute="centerY" secondItem="XsW-rQ-O8a" secondAttribute="centerY" id="YdN-HT-TyC"/>
+                                            <constraint firstItem="7KC-8x-6Ih" firstAttribute="centerX" secondItem="XsW-rQ-O8a" secondAttribute="centerX" id="v3U-cB-Ldv"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="85F-pE-2OQ">
+                                        <rect key="frame" x="0.0" y="380" width="393" height="200"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="uzm-lD-3QK">
+                                                <rect key="frame" x="46.666666666666657" y="10" width="300" height="180"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="BlogButton" translatesAutoresizingMaskIntoConstraints="NO" id="IZv-5Q-paY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="300" height="80"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="L6s-nj-vXf"/>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="dAS-pg-WNZ"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="SettingsButton" translatesAutoresizingMaskIntoConstraints="NO" id="zQj-2p-ubx">
+                                                        <rect key="frame" x="0.0" y="100" width="300" height="80"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="8JM-vT-eUJ"/>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="hjm-8m-2AZ"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <accessibility key="accessibilityConfiguration" label="Third View"/>
+                                        <constraints>
+                                            <constraint firstItem="uzm-lD-3QK" firstAttribute="centerY" secondItem="85F-pE-2OQ" secondAttribute="centerY" id="Qwh-CQ-mW0"/>
+                                            <constraint firstAttribute="height" constant="200" id="WfE-fc-ImW"/>
+                                            <constraint firstItem="uzm-lD-3QK" firstAttribute="centerX" secondItem="85F-pE-2OQ" secondAttribute="centerX" id="inl-0h-deR"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uPn-b7-9Kt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6PJ-Zy-xqI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uPn-b7-9Kt" secondAttribute="bottom" id="Aa4-va-K5T"/>
+                            <constraint firstItem="4BQ-T7-PD8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FSQ-xc-sVx"/>
+                            <constraint firstItem="4BQ-T7-PD8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IPw-Bg-5UJ"/>
+                            <constraint firstItem="uPn-b7-9Kt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="c7i-Z6-y6v"/>
+                            <constraint firstAttribute="trailing" secondItem="4BQ-T7-PD8" secondAttribute="trailing" id="hLn-nW-Osf"/>
+                            <constraint firstAttribute="bottom" secondItem="4BQ-T7-PD8" secondAttribute="bottom" id="tJi-OE-RXZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="j2S-GU-9MD"/>
+                    <connections>
+                        <outlet property="ARButtonView" destination="05t-Gf-1Nf" id="xtD-yT-tbZ"/>
+                        <outlet property="blogButtonView" destination="IZv-5Q-paY" id="hbS-oB-Ecb"/>
+                        <outlet property="galleryButtonView" destination="WMH-iL-xnn" id="a5k-Jg-m07"/>
+                        <outlet property="settingsButtonView" destination="zQj-2p-ubx" id="iIG-mE-PWE"/>
+                        <outlet property="shopButtonView" destination="WCn-LU-xD8" id="5tQ-2O-FZA"/>
+                        <segue destination="zzx-DH-xOI" kind="show" identifier="WelcomeToBlog" id="qHY-7o-OcZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="949" y="-2"/>
+        </scene>
+        <!--Blog-->
+        <scene sceneID="Lg9-Fp-8Hc">
+            <objects>
+                <viewController id="zzx-DH-xOI" customClass="BlogViewController" customModule="Shibuya_AR_Art" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D8L-lE-uC9">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nnq-7J-Z6P"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Blog" id="jks-Rp-hDx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cpp-T1-rpc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1773.2824427480916" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zx0-WO-55q">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Zj-Vv-92a" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H9E-eI-cLA">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="kGf-K5-4JE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1vx-U7-l2X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="109" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ARButton" width="100" height="70"/>
+        <image name="BlogButton" width="100" height="26.666666030883789"/>
+        <image name="GalleryButton" width="43.333332061767578" height="43.333332061767578"/>
+        <image name="SettingsButton" width="100" height="26.666666030883789"/>
+        <image name="ShopButton" width="43.333332061767578" height="43.333332061767578"/>
+        <image name="backgroundImage" width="131" height="284"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

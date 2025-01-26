@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		999903E32D4352C3005CA65B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 999903C42D4352C0005CA65B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 999903CB2D4352C0005CA65B;
+			remoteInfo = "Shibuya AR Art";
+		};
+		999903ED2D4352C4005CA65B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 999903C42D4352C0005CA65B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 999903CB2D4352C0005CA65B;
+			remoteInfo = "Shibuya AR Art";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		999903CC2D4352C0005CA65B /* Shibuya AR Art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shibuya AR Art.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		999903E22D4352C3005CA65B /* Shibuya AR ArtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shibuya AR ArtTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		999903EC2D4352C4005CA65B /* Shibuya AR ArtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shibuya AR ArtUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		999903F42D4352C4005CA65B /* Exceptions for "Shibuya AR Art" folder in "Shibuya AR Art" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 999903CB2D4352C0005CA65B /* Shibuya AR Art */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		999903CE2D4352C0005CA65B /* Shibuya AR Art */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				999903F42D4352C4005CA65B /* Exceptions for "Shibuya AR Art" folder in "Shibuya AR Art" target */,
+			);
+			path = "Shibuya AR Art";
+			sourceTree = "<group>";
+		};
+		999903E52D4352C3005CA65B /* Shibuya AR ArtTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Shibuya AR ArtTests";
+			sourceTree = "<group>";
+		};
+		999903EF2D4352C4005CA65B /* Shibuya AR ArtUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Shibuya AR ArtUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		999903C92D4352C0005CA65B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		999903DF2D4352C3005CA65B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		999903E92D4352C4005CA65B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		999903C32D4352C0005CA65B = {
+			isa = PBXGroup;
+			children = (
+				999903CE2D4352C0005CA65B /* Shibuya AR Art */,
+				999903E52D4352C3005CA65B /* Shibuya AR ArtTests */,
+				999903EF2D4352C4005CA65B /* Shibuya AR ArtUITests */,
+				999903CD2D4352C0005CA65B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		999903CD2D4352C0005CA65B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				999903CC2D4352C0005CA65B /* Shibuya AR Art.app */,
+				999903E22D4352C3005CA65B /* Shibuya AR ArtTests.xctest */,
+				999903EC2D4352C4005CA65B /* Shibuya AR ArtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		999903CB2D4352C0005CA65B /* Shibuya AR Art */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 999903F52D4352C4005CA65B /* Build configuration list for PBXNativeTarget "Shibuya AR Art" */;
+			buildPhases = (
+				999903C82D4352C0005CA65B /* Sources */,
+				999903C92D4352C0005CA65B /* Frameworks */,
+				999903CA2D4352C0005CA65B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				999903CE2D4352C0005CA65B /* Shibuya AR Art */,
+			);
+			name = "Shibuya AR Art";
+			packageProductDependencies = (
+			);
+			productName = "Shibuya AR Art";
+			productReference = 999903CC2D4352C0005CA65B /* Shibuya AR Art.app */;
+			productType = "com.apple.product-type.application";
+		};
+		999903E12D4352C3005CA65B /* Shibuya AR ArtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 999903FA2D4352C4005CA65B /* Build configuration list for PBXNativeTarget "Shibuya AR ArtTests" */;
+			buildPhases = (
+				999903DE2D4352C3005CA65B /* Sources */,
+				999903DF2D4352C3005CA65B /* Frameworks */,
+				999903E02D4352C3005CA65B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				999903E42D4352C3005CA65B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				999903E52D4352C3005CA65B /* Shibuya AR ArtTests */,
+			);
+			name = "Shibuya AR ArtTests";
+			packageProductDependencies = (
+			);
+			productName = "Shibuya AR ArtTests";
+			productReference = 999903E22D4352C3005CA65B /* Shibuya AR ArtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		999903EB2D4352C4005CA65B /* Shibuya AR ArtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 999903FD2D4352C4005CA65B /* Build configuration list for PBXNativeTarget "Shibuya AR ArtUITests" */;
+			buildPhases = (
+				999903E82D4352C4005CA65B /* Sources */,
+				999903E92D4352C4005CA65B /* Frameworks */,
+				999903EA2D4352C4005CA65B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				999903EE2D4352C4005CA65B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				999903EF2D4352C4005CA65B /* Shibuya AR ArtUITests */,
+			);
+			name = "Shibuya AR ArtUITests";
+			packageProductDependencies = (
+			);
+			productName = "Shibuya AR ArtUITests";
+			productReference = 999903EC2D4352C4005CA65B /* Shibuya AR ArtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		999903C42D4352C0005CA65B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					999903CB2D4352C0005CA65B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					999903E12D4352C3005CA65B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 999903CB2D4352C0005CA65B;
+					};
+					999903EB2D4352C4005CA65B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 999903CB2D4352C0005CA65B;
+					};
+				};
+			};
+			buildConfigurationList = 999903C72D4352C0005CA65B /* Build configuration list for PBXProject "Shibuya AR Art" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 999903C32D4352C0005CA65B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 999903CD2D4352C0005CA65B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				999903CB2D4352C0005CA65B /* Shibuya AR Art */,
+				999903E12D4352C3005CA65B /* Shibuya AR ArtTests */,
+				999903EB2D4352C4005CA65B /* Shibuya AR ArtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		999903CA2D4352C0005CA65B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		999903E02D4352C3005CA65B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		999903EA2D4352C4005CA65B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		999903C82D4352C0005CA65B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		999903DE2D4352C3005CA65B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		999903E82D4352C4005CA65B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		999903E42D4352C3005CA65B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 999903CB2D4352C0005CA65B /* Shibuya AR Art */;
+			targetProxy = 999903E32D4352C3005CA65B /* PBXContainerItemProxy */;
+		};
+		999903EE2D4352C4005CA65B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 999903CB2D4352C0005CA65B /* Shibuya AR Art */;
+			targetProxy = 999903ED2D4352C4005CA65B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		999903F62D4352C4005CA65B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 427H8342YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Shibuya AR Art/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paff..Shibuya-AR-Art";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		999903F72D4352C4005CA65B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 427H8342YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Shibuya AR Art/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paff..Shibuya-AR-Art";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		999903F82D4352C4005CA65B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		999903F92D4352C4005CA65B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		999903FB2D4352C4005CA65B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 427H8342YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paff..Shibuya-AR-ArtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shibuya AR Art.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shibuya AR Art";
+			};
+			name = Debug;
+		};
+		999903FC2D4352C4005CA65B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 427H8342YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paff..Shibuya-AR-ArtTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shibuya AR Art.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shibuya AR Art";
+			};
+			name = Release;
+		};
+		999903FE2D4352C4005CA65B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 427H8342YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paff..Shibuya-AR-ArtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shibuya AR Art";
+			};
+			name = Debug;
+		};
+		999903FF2D4352C4005CA65B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 427H8342YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paff..Shibuya-AR-ArtUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shibuya AR Art";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		999903C72D4352C0005CA65B /* Build configuration list for PBXProject "Shibuya AR Art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999903F82D4352C4005CA65B /* Debug */,
+				999903F92D4352C4005CA65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		999903F52D4352C4005CA65B /* Build configuration list for PBXNativeTarget "Shibuya AR Art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999903F62D4352C4005CA65B /* Debug */,
+				999903F72D4352C4005CA65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		999903FA2D4352C4005CA65B /* Build configuration list for PBXNativeTarget "Shibuya AR ArtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999903FB2D4352C4005CA65B /* Debug */,
+				999903FC2D4352C4005CA65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		999903FD2D4352C4005CA65B /* Build configuration list for PBXNativeTarget "Shibuya AR ArtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999903FE2D4352C4005CA65B /* Debug */,
+				999903FF2D4352C4005CA65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 999903C42D4352C0005CA65B /* Project object */;
+}
