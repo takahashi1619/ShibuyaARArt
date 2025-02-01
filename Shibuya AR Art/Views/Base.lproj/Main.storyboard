@@ -116,16 +116,7 @@
                             <constraint firstAttribute="bottom" secondItem="4BQ-T7-PD8" secondAttribute="bottom" id="tJi-OE-RXZ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="j2S-GU-9MD">
-                        <barButtonItem key="rightBarButtonItem" style="done" id="QaW-Wd-EvO">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Px8-Vj-1sj">
-                                <rect key="frame" x="297.33333333333331" y="5" width="79.666666666666686" height="34.333333333333336"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Login"/>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="j2S-GU-9MD"/>
                     <connections>
                         <outlet property="ARButtonView" destination="05t-Gf-1Nf" id="xtD-yT-tbZ"/>
                         <outlet property="blogButtonView" destination="IZv-5Q-paY" id="hbS-oB-Ecb"/>
@@ -133,6 +124,7 @@
                         <outlet property="settingsButtonView" destination="zQj-2p-ubx" id="iIG-mE-PWE"/>
                         <outlet property="shopButtonView" destination="WCn-LU-xD8" id="5tQ-2O-FZA"/>
                         <segue destination="zzx-DH-xOI" kind="show" identifier="WelcomeToBlog" id="qHY-7o-OcZ"/>
+                        <segue destination="5RM-dD-ZM6" kind="show" identifier="WelcomeToCamera" id="zZF-aq-b5a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -215,7 +207,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cpp-T1-rpc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4379.3893129770995" y="700.70422535211276"/>
+            <point key="canvasLocation" x="4421" y="353"/>
         </scene>
         <!--Auth Selection View Controller-->
         <scene sceneID="gcF-QL-rc8">
@@ -258,8 +250,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="hne-SQ-brN"/>
                     <connections>
-                        <outlet property="loginButtonView" destination="YhQ-gT-Uo6" id="JAL-ma-Yzq"/>
-                        <outlet property="signupButtonView" destination="GtB-N8-HcG" id="qlo-Kq-Pnc"/>
+                        <outlet property="loginButtonView" destination="YhQ-gT-Uo6" id="v7s-cR-4bd"/>
+                        <outlet property="signupButtonView" destination="GtB-N8-HcG" id="dul-xg-PFe"/>
                         <segue destination="Rpf-LR-2hT" kind="show" identifier="SelectionToSignup" id="AlN-W0-Qzl"/>
                         <segue destination="YNO-Ee-zhE" kind="show" identifier="SelectionToLogin" id="96F-9m-IJF"/>
                     </connections>
@@ -424,6 +416,36 @@
             </objects>
             <point key="canvasLocation" x="2758" y="1049"/>
         </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="zkv-er-fIw">
+            <objects>
+                <viewController id="5RM-dD-ZM6" customClass="CameraViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TRE-qg-j4u">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnE-FA-S1h">
+                                <rect key="frame" x="144.66666666666666" y="408.66666666666669" width="104" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="カメラ起動"/>
+                                <connections>
+                                    <action selector="startUiImagePickerController:" destination="5RM-dD-ZM6" eventType="touchUpInside" id="nQz-FN-8al"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Pvs-hA-Iwi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cnE-FA-S1h" firstAttribute="centerX" secondItem="TRE-qg-j4u" secondAttribute="centerX" id="Dlg-fi-4Jb"/>
+                            <constraint firstItem="cnE-FA-S1h" firstAttribute="centerY" secondItem="TRE-qg-j4u" secondAttribute="centerY" id="OjW-dI-oJI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="TPB-Zo-zBE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ul0-yF-SaU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4421" y="1049"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="LPP-K0-1s2">
             <objects>
@@ -444,7 +466,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="CgV-JA-1J8"/>
+        <segue reference="4Tc-xP-JgK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ARButton" width="100" height="70"/>

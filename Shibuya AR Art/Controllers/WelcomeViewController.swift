@@ -32,12 +32,21 @@ class WelcomeViewController: UIViewController {
         let tapBlog = UITapGestureRecognizer(target: self, action: #selector(blogButtonTapped))
         blogButtonView.addGestureRecognizer(tapBlog)
         
+        // タップジェスチャーの追加
+        let tapAR = UITapGestureRecognizer(target: self, action: #selector(ARButtonTapped))
+        ARButtonView.addGestureRecognizer(tapAR)
     }
     
     // タップ時のアクション
     @objc func blogButtonTapped() {
-        print("ImageView tapped!")
+        print("BlogView tapped!")
         self.performSegue(withIdentifier: "WelcomeToBlog", sender: self)
+    }
+    
+    // タップ時のアクション
+    @objc func ARButtonTapped() {
+        print("ARView tapped!")
+        self.performSegue(withIdentifier: "WelcomeToCamera", sender: self)
     }
 }
 
