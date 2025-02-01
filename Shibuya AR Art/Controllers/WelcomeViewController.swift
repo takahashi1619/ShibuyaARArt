@@ -29,9 +29,8 @@ class WelcomeViewController: UIViewController {
         }
         
         // タップジェスチャーの追加
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(blogButtonTapped))
-        blogButtonView.addGestureRecognizer(tapGesture)
-        
+        let tapBlog = UITapGestureRecognizer(target: self, action: #selector(blogButtonTapped))
+        blogButtonView.addGestureRecognizer(tapBlog)
         
     }
     

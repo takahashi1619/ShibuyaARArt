@@ -1,0 +1,6 @@
+framework module Pods_Shibuya_AR_Art {
+  umbrella header "Pods-Shibuya AR Art-umbrella.h"
+
+  export *
+  module * { export * }
+}
