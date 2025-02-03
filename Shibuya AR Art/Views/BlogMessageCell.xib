@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BlogCell" rowHeight="346" id="KGk-i7-Jjw" customClass="BlogMessageCell" customModule="Shibuya_AR_Art" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="301" height="346"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="301" height="346"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Jxe-bV-RkR">
+                        <rect key="frame" x="10" y="10" width="280" height="326"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="haruka_nakamura_haruaki" translatesAutoresizingMaskIntoConstraints="NO" id="RoF-al-9YC">
+                                <rect key="frame" x="0.0" y="0.0" width="280" height="210"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="7QJ-wU-ZnL"/>
+                                    <constraint firstAttribute="height" constant="210" id="dxk-nM-yy2"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ySf-by-DSp">
+                                <rect key="frame" x="0.0" y="210" width="280" height="116"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="a4b-nx-vI0">
+                                        <rect key="frame" x="10" y="10" width="260" height="96"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="year/month/day" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rEn-N3-j0a">
+                                                <rect key="frame" x="0.0" y="0.0" width="106.33333333333333" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="7ss-zt-tAi"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="BlogMessage fjdisaofja dasdfsadf fafdsafas dsafdasdf fdsafasf fafasdfd" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fR1-kB-DBC">
+                                                <rect key="frame" x="0.0" y="20" width="260" height="76"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="rEn-N3-j0a" firstAttribute="leading" secondItem="a4b-nx-vI0" secondAttribute="leading" id="aRZ-As-fW5"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="a4b-nx-vI0" secondAttribute="trailing" constant="10" id="4IP-3O-TFS"/>
+                                    <constraint firstAttribute="width" constant="280" id="7cS-VX-opH"/>
+                                    <constraint firstItem="a4b-nx-vI0" firstAttribute="leading" secondItem="ySf-by-DSp" secondAttribute="leading" constant="10" id="H6B-Nt-z1u"/>
+                                    <constraint firstItem="a4b-nx-vI0" firstAttribute="top" secondItem="ySf-by-DSp" secondAttribute="top" constant="10" id="LIR-So-aNT"/>
+                                    <constraint firstAttribute="bottom" secondItem="a4b-nx-vI0" secondAttribute="bottom" constant="10" id="hsm-oe-Pd6"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="rTd-n4-SWP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Jxe-bV-RkR" secondAttribute="bottom" constant="10" id="O0K-hA-mtA"/>
+                    <constraint firstItem="Jxe-bV-RkR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="arV-Io-zMr"/>
+                    <constraint firstAttribute="trailing" secondItem="Jxe-bV-RkR" secondAttribute="trailing" constant="10" id="wzR-Hu-aEw"/>
+                    <constraint firstItem="Jxe-bV-RkR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="zf1-5K-0JM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="blogMessageBubble" destination="ySf-by-DSp" id="MVQ-PL-v77"/>
+                <outlet property="dateLabel" destination="rEn-N3-j0a" id="eQi-8y-5eV"/>
+                <outlet property="messageLabel" destination="fR1-kB-DBC" id="52E-y2-cfu"/>
+                <outlet property="topImageView" destination="RoF-al-9YC" id="sVW-aG-5X6"/>
+            </connections>
+            <point key="canvasLocation" x="64.885496183206101" y="124.64788732394366"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="haruka_nakamura_haruaki" width="166.66667175292969" height="166.66667175292969"/>
+    </resources>
+</document>

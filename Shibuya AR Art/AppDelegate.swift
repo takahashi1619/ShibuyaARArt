@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseCore
+import FirebaseFirestore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         sleep(2)
         
         FirebaseApp.configure()
+        // Firestoreの作成
+        let db = Firestore.firestore()
+        
+        print(db)
         
         return true
     }

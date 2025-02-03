@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class WelcomeViewController: UIViewController {
 
@@ -17,6 +18,10 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // ナビゲーションバーの戻るボタンを隠す
+        navigationItem.hidesBackButton = true
+        
         //リストにimageViewを格納
         let buttons: [UIImageView] = [ARButtonView, galleryButtonView, shopButtonView, blogButtonView, settingsButtonView]
         //シャドウの適用
@@ -32,21 +37,23 @@ class WelcomeViewController: UIViewController {
         let tapBlog = UITapGestureRecognizer(target: self, action: #selector(blogButtonTapped))
         blogButtonView.addGestureRecognizer(tapBlog)
         
-        // タップジェスチャーの追加
-        let tapAR = UITapGestureRecognizer(target: self, action: #selector(ARButtonTapped))
-        ARButtonView.addGestureRecognizer(tapAR)
     }
     
-    // タップ時のアクション
+    // blogボタン押下時のアクション
     @objc func blogButtonTapped() {
         print("BlogView tapped!")
         self.performSegue(withIdentifier: "WelcomeToBlog", sender: self)
     }
     
-    // タップ時のアクション
-    @objc func ARButtonTapped() {
-        print("ARView tapped!")
-        self.performSegue(withIdentifier: "WelcomeToCamera", sender: self)
+    // Logoutボタン押下時のアクション
+    @IBAction func logoutPressed(_ sender: UIBarButtonItem) {
+        do {
+            try Auth.auth().signOut()
+            navigationController?.popToRootViewController(animated: true)
+            
+        } catch let signOutError as NSError {
+            print("Error signing out: %@", signOutError)
+        }
     }
 }
 
