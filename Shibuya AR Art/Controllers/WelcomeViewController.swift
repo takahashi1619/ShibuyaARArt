@@ -37,12 +37,22 @@ class WelcomeViewController: UIViewController {
         let tapBlog = UITapGestureRecognizer(target: self, action: #selector(blogButtonTapped))
         blogButtonView.addGestureRecognizer(tapBlog)
         
+        // タップジェスチャーの追加
+        let tapShop = UITapGestureRecognizer(target: self, action: #selector(shopButtonTapped))
+        shopButtonView.addGestureRecognizer(tapShop)
+        
     }
     
     // blogボタン押下時のアクション
     @objc func blogButtonTapped() {
         print("BlogView tapped!")
         self.performSegue(withIdentifier: "WelcomeToBlog", sender: self)
+    }
+    
+    // shopボタン押下時のアクション
+    @objc func shopButtonTapped() {
+        print("ShopView tapped!")
+        self.performSegue(withIdentifier: "WelcomeToShop", sender: self)
     }
     
     // Logoutボタン押下時のアクション

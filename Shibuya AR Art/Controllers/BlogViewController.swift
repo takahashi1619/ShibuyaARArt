@@ -7,9 +7,6 @@
 
 import UIKit
 
-//let photos = ["haruka_nakamura_huyunatu", "haruka_nakamura_haruaki", "piano"]
-//let words = ["2024/01/23", "2024/05/12", "2025/01/22"]
-
 class BlogViewController: UIViewController {
             
     @IBOutlet weak var tableView: UITableView!
